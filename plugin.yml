@@ -1,0 +1,81 @@
+name: KnowNixSystem
+author: Tailo
+version: 1.0
+
+main: me.Tailo.KnowNixSystem.System.main
+
+commands:
+  teleport:
+    description: Allgemeiner Teleport Befehl
+    usage: /teleport
+    aliases: [tp]
+  gamemode:
+    description: Gamemode aendern
+    usage: /gamemode [Gamemode] [Spieler]
+    aliases: [gm]
+  fly:
+    description: Erlaubt dem Spieler das Fliegen
+    usage: /fly [Spielername]
+  god:
+    description: Erlaubt dem Spieler unsterblich zu sein
+    usage: /god [Spielername]
+  vanish:
+    description: Werde fuer andere Spieler unsichtbar
+    usage: /vanish
+    aliases: [van]
+  clearchat:
+    description: Loesche den Chat
+    usage: /clearchat
+    aliases: [cc]
+  globalmute:
+    description: Mute den Chat
+    usage: /globalmute
+    aliases: [gmute]
+  freeze:
+    description: Friere einen Spieler ein
+    usage: /freeze [Spielername]
+  speed:
+    description: Setze deine Geschwindigkeit
+    usage: /speed [x-Fach]
+  back:
+    description: Teleportiere dich zu dem Punkt von dem du dich wegteleportiert hast
+    usage: /back
+  syscmd:
+    description: Systembefehl fuer AntiCheat
+    usage: /syscmd
+  perm:
+    description: Permisson Befehl
+    usage: /perm
+  manager:
+    description: Verwalte das System des lokalen Servers
+    usage: /manager
+  geadgets:
+    description: Oeffne das Geadget Menue
+    usage: /geadgets
+  op:
+    description: OP Befehl
+    usage: /op [Spielername]
+  velocity:
+    description: Schalte Velocity ein/aus
+    usage: /velocity
+  announce:
+    description: Mache eine Durchsage
+    usage: /announce [Zeile1];[Zeile2]
+  giveall:
+    description: Gibt allen Spielern das Item in deiner Hand
+    usage: /giveall
+  kck:
+    description: Kick Befehl
+    usage: /kck [Spielername]
+  forcefield:
+    description: Aktiviere dein Forcefield
+    usage: /forcefield [Radius]
+  fix:
+    description: Fixe Spieler die unsichtbar sind
+    usage: /fix
+  serverban:
+    description: Spieler temporaer sperren
+    usage: /serverban <list/ban/unban> [Spielername]
+  ac:
+    description: AntiCheat Befehl
+    usage: /ac
